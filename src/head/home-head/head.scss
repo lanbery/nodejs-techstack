@@ -1,0 +1,13 @@
+/**
+ * 21-11-01 22:44 Monday 
+ * This file used define the module head/home-head styles.
+ * This file must be imported into parent scss file, to take it effect.
+ * like : @import './head/home-head/head.scss';
+ */
+
+/* there can define module variables or function */
+.head {
+  &-layout {
+    text-align: center;
+  }
+}

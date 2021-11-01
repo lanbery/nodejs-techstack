@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "react",
+    "baseUrl": "./",
+    "outDir": "/dist",
+    "paths": {
+      "~/*": ["src/*"],
+      "~Assets/*": ["src/assets/*"],
+      "~Lib/*": ["src/lib/*"],
+      "~Layouts/*": ["src/layouts/*"],
+      "~Router/*": ["src/router/*"],
+      "~Store/*": ["src/store/*"],
+      "~UI/*": ["src/ui/*"],
+      "~Views/*": ["src/views/*"],
+      "~Widgets/*": ["src/ui/widgets/*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}

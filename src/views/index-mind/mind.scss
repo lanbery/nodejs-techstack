@@ -1,0 +1,32 @@
+/**
+ * 21-11-01 22:40 Monday 
+ * This file used define the module index-mind styles.
+ * This file must be imported into parent scss file, to take it effect.
+ * like : @import './index-mind/mind.scss';
+ */
+
+/* there can define module variables or function */
+.mind {
+  &-container {
+    background: url('~assets/images/black_back.png') left top repeat;
+    color: #fff;
+    padding: 24px;
+  }
+
+  &__header {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+}
+
+.diambox {
+  display: inline-block;
+  transform: rotate(45deg);
+  border: 1px solid red;
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}

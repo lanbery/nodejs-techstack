@@ -1,0 +1,23 @@
+body {
+  font-family: 'Lato', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $text-color;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul,
+blockquote {
+  list-style: none;
+  margin: 0 0;
+  padding: 0 0 0 6px;
+}
+
+li {
+  line-height: 1.6;
+}

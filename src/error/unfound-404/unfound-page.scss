@@ -1,0 +1,14 @@
+/**
+ * 21-10-21 22:25 Thursday
+ * This file used define the module error/unfound-404 styles.
+ * This file must be imported into parent scss file, to take it effect.
+ * like : @import './error/unfound-404/unfound-page.scss';
+ */
+
+/* there can define module variables or function */
+.unfound {
+  &-container {
+    color: #fff;
+  }
+}
+

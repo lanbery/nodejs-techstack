@@ -1,0 +1,14 @@
+/**
+ * 21-10-21 22:22 Thursday
+ * This file used define the module error/error-layout styles.
+ * This file must be imported into parent scss file, to take it effect.
+ * like : @import './error/error-layout/layout.scss';
+ */
+
+/* there can define module variables or function */
+.layout {
+  &-container {
+    color: #fff;
+  }
+}
+

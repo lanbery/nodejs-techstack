@@ -1,0 +1,26 @@
+/**
+ * 21-10-21 22:37 Thursday 
+ * This file used define the module layouts/resume-layout styles.
+ * This file must be imported into parent scss file, to take it effect.
+ * like : @import './layouts/resume-layout/resume-layout.scss';
+ */
+
+/* there can define module variables or function */
+.home {
+  &-layout {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+    & > div {
+      width: 100%;
+      max-width: 1200px;
+      flex: 1 1 auto;
+      // border: 1px solid red;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/logo.png" />
+    <title>Page Not Found</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"
+    />
+    <meta http-equiv="refresh" content="0;URL='/'"></meta>
+    <script>
+      sessionStorage.redirect = location.href;
+    </script>
+  </head>
+<style>
+  body {
+    margin: 0px;
+  }
+  .gp-404 {
+    height: 100vh;
+    color: #261d0b;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  div.inner {
+    width: 50%;
+  }
+  .inner h1 {
+    color: #261d0b;
+    font-size: 8.75rem;
+  }
+</style>
+  <body>
+    <div class="gp-404">
+      <div class="inner">
+        <h1>Loading...</h1>
+      </div>
+    </div>
+  </body>
+</html>
